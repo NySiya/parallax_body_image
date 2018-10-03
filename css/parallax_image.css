@@ -1,0 +1,37 @@
+.parallax {
+  height: 100vh;
+  /* height: 480px; */
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* clear: both; */
+  /* scroll-behavior: smooth;
+  transition-property: top;
+  transition-duration: 3ms; */
+}
+
+.parallax .img-parallax {
+  width: 100%;
+  /* position: relative; */
+  /* height: 100vh; */
+  height: auto;
+  /* height: 480px; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* overflow: hidden; */
+  margin: 0 auto;
+  padding: 0;
+  overflow: auto;
+  /* overscroll-behavior: contain; */
+  /* transition-property: top;
+  transition-duration: 3ms;
+  scroll-behavior: smooth; */
+}
+
+@media only screen and (min-width: 600px) {
+  .parallax {
+    display: none;
+  }
+}
